@@ -1,0 +1,526 @@
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+    
+}
+
+    
+body {
+
+height: 100%;
+        
+    
+}
+
+       
+
+.contenitore {
+
+background-color: #05299e;
+
+}
+
+#riga-header {
+
+margin: 0;
+      
+
+}
+
+#columns-nav {
+
+height: 135px;
+margin:0;       
+
+}
+
+.immagine-logo-desktop{
+
+margin-top: 2 rem;
+margin-left: 2 rem;
+        
+
+}
+
+        
+
+.voci-menu {
+
+color: white;
+font-size: 20px;
+padding: 10px;
+text-decoration: none;
+  
+}
+
+          
+.voci-menu:hover {
+  
+color: white;
+background-color: #fc5f22;
+  
+}
+          
+.voci-menu2{
+  
+color: white;
+font-size: 16px;
+padding: 2px;
+text-decoration: none;
+      
+}
+              
+.voci-menu2:hover {
+      
+color: white;
+background-color: #fc5f22;
+      
+}
+
+.voci-menu2-diversa{
+  
+color: white;
+font-size: 16px;
+padding: 2px;
+text-decoration: none;
+background-color: #5e17eb;
+          
+}
+                  
+.voci-menu2:hover {
+          
+color: white;
+          
+}
+              
+ul {
+      
+display: flex;
+              
+      
+} 
+  
+        
+.contenitore-navbar{
+
+display: flex;
+justify-content: flex-end;
+margin-top: 1.9rem;
+margin-right: 0 rem;
+
+}
+        
+.contenitore-navbar2 {
+
+display: flex;
+align-items: flex-start;
+margin-top: 0px;
+margin-right: 7px;
+
+}
+
+.progetti {
+
+background-color: #5e17eb;
+height: 145px;
+padding: 2.2rem 2rem;
+
+}
+
+.titolo-progetti {
+
+color: white;
+font-size: 48px;
+text-align: center;
+
+}
+
+.area-progetti {
+
+background-color: #05299e;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#card1 {
+
+width: 45rem;
+margin: 2.5rem 1.5rem;
+background-color: white;
+display: flex;
+flex-wrap: nowrap;
+
+}
+
+.img-card1{
+
+width: 60%;
+
+}
+
+.parte-scritta {
+
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-left: 1.5rem;
+
+}
+
+.paragrafo-parte-scritta {
+
+
+
+}
+
+.button-parte-scritta {
+
+width: 8rem;
+height: 2.5rem;
+margin-top: 15.5rem;
+margin-left: 8rem;
+background-color: #fc5f22;
+border: 1px solid #fc5f22;
+color: white;
+
+}
+
+.link-btn-parte-scritta {
+
+color: white;
+background-color: #fc5f22;
+border: 1px solid #fc5f22;
+
+}
+
+.link-btn-parte-scritta:hover {
+
+color: white;
+    
+}
+
+#card1-mobile {
+
+    width: 25rem;
+    margin: 2.5rem 1.5rem;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+    
+.img-card1-mobile{
+    
+    width: 60%;
+    
+}
+    
+.parte-scritta-mobile {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1.5rem;
+    
+}
+    
+.paragrafo-parte-scritta-mobile {
+    
+    
+    
+}
+    
+.button-parte-scritta-mobile {
+    
+    width: 6rem;
+    height: 2.5rem;
+    margin-top: 15.5rem;
+    margin-left: 2rem;
+    background-color: #fc5f22;
+    border: 1px solid #fc5f22;
+    color: white;
+    
+}
+    
+.link-btn-parte-scritta-mobile {
+    
+    color: white;
+    background-color: #fc5f22;
+    border: 1px solid #fc5f22;
+    
+}
+    
+.link-btn-parte-scritta-mobile:hover {
+    
+    color: white;
+        
+}
+
+.area-contattami {
+
+    background-color: #05299e;
+    height: 350px;
+
+
+}
+
+#box-area-contattami {
+
+    background-color: #5e17eb;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 45px;
+    
+
+}
+
+.titolo-area-contattami {
+
+    color: white;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.sottotitolo-area-contattami {
+
+    color: white;
+    text-align: center;
+
+}
+
+#box-area-contattami2 {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #5e17eb;
+    margin-top: 20px;
+    margin-right: 15px;
+    height: 270px;
+
+}
+
+.input-nome {
+
+    margin-top: 8px;
+    padding: 10px 0px;
+   
+
+}
+
+.input-cognome {
+
+    margin-top: 15px;
+    padding: 10px 0px;    
+
+}
+
+.input-email{
+
+    margin-top: 15px;
+    padding: 10px 0px;
+        
+}
+
+.btn-contattami {
+
+    margin-top: 15px;
+    padding: 10px 0px;
+    background-color: #fc5f22;
+    border: 1px #fc5f22 solid;
+    color: white;
+    width: 220px;
+    font-size: 16px;
+    
+
+
+}
+
+#box-area-contattami-mobile {
+
+    background-color: #5e17eb;
+    margin-top: 25px;
+        
+
+}
+
+.titolo-area-contattami-mobile {
+
+    color: white;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.sottotitolo-area-contattami-mobile {
+
+    color: white;
+    text-align: center;
+
+}
+
+#box-area-contattami2-mobile {
+
+        
+    background-color: #5e17eb;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.input-nome-mobile {
+
+        
+padding: 5px 0px;
+       
+       
+}
+
+.input-cognome-mobile {
+
+    padding: 5px 0px;
+    margin-top: 10px;
+          
+}
+
+.input-email-mobile{
+
+    margin-top: 10px;
+    padding: 5px 0px;
+            
+}
+  
+
+.btn-contattami-mobile {
+
+    padding: 10px 0px;
+    background-color: #fc5f22;
+    border: 1px #fc5f22 solid;
+    color: white;
+    width: 220px;
+    margin: 10px auto;
+    font-size: 16px;
+
+}
+
+.area-footer {
+
+background-color:#5e17eb;
+
+}
+
+#riga-footer {
+
+margin: 0;
+
+}
+
+.paragrafo-footer {
+
+color: white;
+text-align: center;
+font-size: 18px;
+
+}
+    
+.paragrafo-icon-by {
+
+color: white;
+text-align: center;
+font-size: 18px;
+
+}
+
+.link-footer {
+
+text-align: center;
+color: white;
+font-size: 20px;
+
+}
+
+.link-footer:hover {
+
+text-align: center;
+color: #fc5f22;
+
+}
+
+
+.paragrafo-footer-mobile {
+
+color: white;
+text-align: center;
+margin-top: 100px;
+
+}
+
+.paragrafo-footer2 {
+
+font-size: 24px;
+color:white;
+text-align: center;
+
+}
+
+.icone-social {
+
+margin-left: 160px;
+padding: 0px 15px;
+
+}
+
+.icone-social2 {
+
+padding: 0px 15px;
+
+}
+
+#box-social-mobile {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.icone-social-mobile {
+   
+padding: 0px 10px;
+
+}
+
+
+
+
+::-webkit-scrollbar {
+
+width: 8px;
+border-radius: .25rem ;
+
+}
+
+::-webkit-scrollbar-track {
+
+background: #05299e;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+background: white;
+border-radius: .25rem;
+
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+background-color: #fc5f22;
+
+}
